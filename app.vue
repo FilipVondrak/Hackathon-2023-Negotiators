@@ -1,5 +1,7 @@
 <template>
-  <NuxtPage />
+  <default>
+    <NuxtPage />
+  </default>
 </template>
 
 <style>
@@ -14,5 +16,9 @@ html {
   scroll-behavior: smooth;
 }
 </style>
+
 <script setup lang="ts">
+import Default from "~/layout/default.vue";
+
+// fetch data from database api
 </script>
